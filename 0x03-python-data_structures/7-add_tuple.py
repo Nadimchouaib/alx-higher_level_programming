@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 def add_tuple(tuple_a=(), tuple_b=()):
     if len(tuple_a) == 0:
         tuple_a += (0, 0)
@@ -15,4 +16,4 @@ def add_tuple(tuple_a=(), tuple_b=()):
         tuple_b = tuple_b[:2]
 
     tuple_sum = tuple(sum(var) for var in zip(tuple_a, tuple_b))
-    return tuple_sum
+    return (tuple_sum)
